@@ -12,7 +12,7 @@ module.exports = {
       },
     ],
 
-    'unused-imports/no-unused-imports': 'off', // look below
-    'no-autofix/unused-imports/no-unused-imports': 'error',
+    'unused-imports/no-unused-imports': 0, // look below
+    'no-autofix/unused-imports/no-unused-imports': 2,
   },
 }
