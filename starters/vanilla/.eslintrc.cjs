@@ -1,5 +1,6 @@
 module.exports = {
   extends: '@antfu',
+  plugins: ['no-autofix'],
   rules: {
     'space-before-function-paren': 0,
     '@typescript-eslint/space-before-function-paren': [
@@ -10,5 +11,8 @@ module.exports = {
         asyncArrow: 'always',
       },
     ],
+
+    'unused-imports/no-unused-imports': 'off', // look below
+    'no-autofix/unused-imports/no-unused-imports': 'error',
   },
 }
