@@ -1,0 +1,22 @@
+{
+  "name": "vanilla-ts",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "test": "vitest",
+    "test:run": "vitest run"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.39.5",
+    "eslint": "^8.42.0",
+    "eslint-plugin-no-autofix": "^1.2.3",
+    "typescript": "5.0.4",
+    "vite": "^4.3.9",
+    "vitest": "^0.32.0"
+  }
+}
