@@ -1,15 +1,19 @@
 {
   "name": "vanilla-ts",
-  "private": true,
-  "version": "0.0.0",
   "type": "module",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint ."
   },
   "devDependencies": {
-    "typescript": "^5.0.2",
+    "@antfu/eslint-config": "^0.39.5",
+    "eslint": "^8.42.0",
+    "eslint-plugin-no-autofix": "^1.2.3",
+    "typescript": "5.0.4",
     "vite": "^4.3.9"
   }
 }
