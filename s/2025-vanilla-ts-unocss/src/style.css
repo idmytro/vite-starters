@@ -35,13 +35,6 @@ h1 {
   line-height: 1.1;
 }
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -53,6 +46,9 @@ h1 {
 }
 .logo.vanilla:hover {
   filter: drop-shadow(0 0 2em #3178c6aa);
+}
+.logo.uno:hover {
+  filter: drop-shadow(0 0 2em #4D4D4Daa);
 }
 
 .card {
