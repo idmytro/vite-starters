@@ -1,4 +1,7 @@
 # Vite starters
+```bash
+pnpm create vite myviteproject --template vanilla-ts
+```
 
 ```
 npx degit idmytro/vite-starters/s/vanilla newproject
