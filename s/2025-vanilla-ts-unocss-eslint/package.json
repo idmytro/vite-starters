@@ -1,0 +1,19 @@
+{
+  "name": "2025-vanilla-ts",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.6.0",
+    "@unocss/eslint-plugin": "^66.0.0",
+    "eslint": "^9.21.0",
+    "typescript": "~5.7.2",
+    "unocss": "66.1.0-beta.3",
+    "vite": "^6.2.0"
+  }
+}
