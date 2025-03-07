@@ -1,9 +1,9 @@
-import './style.css'
-import typescriptLogo from './typescript.svg'
-import viteLogo from '/vite.svg'
-import unocssLogo from '/unocss.svg'
 import { setupCounter } from './counter.ts'
+import typescriptLogo from './typescript.svg'
+import './style.css'
 import 'virtual:uno.css'
+import unocssLogo from '/unocss.svg'
+import viteLogo from '/vite.svg'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>

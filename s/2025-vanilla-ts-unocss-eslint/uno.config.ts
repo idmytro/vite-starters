@@ -12,6 +12,6 @@ export default defineConfig({
     pipeline: {
       // include: [/\.(html|ts)($|\?)/],
       include: [/main\.ts$/, /index\.html$/], // Scan only main.ts and index.html
-    }
-  }
+    },
+  },
 })
